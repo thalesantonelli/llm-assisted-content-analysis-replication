@@ -1,0 +1,36 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local pipeline outputs and inputs
+claim_pipeline/
+00_inputs/
+01_claim_extraction/
+02_analytical_filtering/
+03_weak_semantic_normalization/
+04_semantic_clustering/
+99_logs/
+
+# Large or local data files
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Keep documentation files inside data/
+!data/README.md

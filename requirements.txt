@@ -1,0 +1,6 @@
+google-genai
+hdbscan
+numpy
+openpyxl
+pandas
+scikit-learn

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use these replication materials, please cite the associated article."
+title: "LLM-Assisted Content Analysis Replication Materials"
+type: software
+authors:
+  - family-names: "Antonelli"
+    given-names: "Thales"
+version: 0.1.0
